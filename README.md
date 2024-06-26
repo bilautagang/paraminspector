@@ -26,7 +26,7 @@ Flags
 Installation
 
     1. Clone the repository:
-git clone https://github.com/yourusername/paraminspector.git
+git clone https://github.com/bilautagang/paraminspector.git
 
 
     2. Navigate to the project directory:
@@ -36,6 +36,10 @@ cd paraminspector
 
 go build -o paraminspector
 
+To use ParamInspector, run the following command:
+
+```bash
+./paraminspector -domains example.com,example.org -output param_urls.txt -sources wayback,commoncrawl -timeout 20s
 
 License
 
