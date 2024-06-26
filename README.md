@@ -38,7 +38,6 @@ go build -o paraminspector
 
 To use ParamInspector, run the following command:
 
-```bash
 ./paraminspector -domains example.com,example.org -output param_urls.txt -sources wayback,commoncrawl -timeout 20s
 
 License
